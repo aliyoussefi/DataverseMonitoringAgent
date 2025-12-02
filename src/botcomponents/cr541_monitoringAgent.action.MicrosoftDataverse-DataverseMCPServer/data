@@ -1,0 +1,12 @@
+kind: TaskDialog
+modelDisplayName: Dataverse MCP Server
+modelDescription: Provides Remote MCP Server access to Dataverse
+action:
+  kind: InvokeExternalAgentTaskAction
+  connectionReference: cr541_monitoringAgent.shared_commondataserviceforapps.1962f97f6c5f497aaa09f9d08a130f6f
+  connectionProperties:
+    mode: Invoker
+
+  operationDetails:
+    kind: ModelContextProtocolMetadata
+    operationId: InvokeMCP

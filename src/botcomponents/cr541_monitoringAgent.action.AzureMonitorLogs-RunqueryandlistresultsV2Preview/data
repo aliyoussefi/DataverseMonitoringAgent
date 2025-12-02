@@ -1,0 +1,68 @@
+kind: TaskDialog
+response:
+  activity:
+  mode: Generated
+
+inputs:
+  - kind: ManualTaskInput
+    propertyName: subscriptions
+    value: <subcriptionId>
+
+  - kind: ManualTaskInput
+    propertyName: resourcegroups
+    value: <resource group name>
+
+  - kind: ManualTaskInput
+    propertyName: resourcetype
+    value: Application Insights
+
+  - kind: ManualTaskInput
+    propertyName: resourcename
+    value: <resource name>
+
+  - kind: AutomaticTaskInput
+    propertyName: timerange
+    description: |-
+      # Instructions for agent
+      - the value should be natural language. For example, if the user says "last 24 hours", use "Last 24 hours".
+      - the format will be a json object with a single property named "relativeTimeRange". The value of the property will be the natural language value.
+
+      # Example of format
+      {
+      "relativeTimeRange": "Last 24 Hours"
+      }
+
+  - kind: AutomaticTaskInput
+    propertyName: timerangetype
+
+modelDisplayName: Run query and list results
+modelDescription: |-
+  # Instructions for agent for Inputs
+  - Query: Infer the user input into a KQL query. user activity will query the page views table. API or transaction queries will use both the requests and dependencies table. Error will use the exceptions table.
+  - The knowledge "Azure Monitor Community" **must** be used to ground KQL queries for Dataverse.
+outputs:
+  - propertyName: value
+    name: value
+
+action:
+  kind: InvokeConnectorTaskAction
+  connectionReference: cr541_monitoringAgent.shared_azuremonitorlogs.dce5fdbe18894cf4b334abe210ccab99
+  connectionProperties:
+    mode: Invoker
+
+  operationId: QueryDataV2
+  dynamicOutputSchema:
+    kind: Record
+    properties:
+      value:
+        order: 0
+        type:
+          kind: Table
+          properties:
+            Value:
+              type: Any
+              examples:
+
+        examples:
+
+outputMode: All

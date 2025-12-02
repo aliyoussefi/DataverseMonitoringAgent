@@ -1,0 +1,11 @@
+<botcomponent schemaname="cr541_monitoringAgent.topic.FlowSession_zw7JLaloSM_Le8NWvXpI2">
+  <componenttype>16</componenttype>
+  <description>This knowledge source answers questions found in the following Dataverse tables: Flow Session</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Flow Session</name>
+  <parentbotid>
+    <schemaname>cr541_monitoringAgent</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

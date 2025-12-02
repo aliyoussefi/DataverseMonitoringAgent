@@ -1,0 +1,10 @@
+<botcomponent schemaname="cr541_monitoringAgent.action.AzureDataExplorer-KustoQueryMCPServer">
+  <componenttype>9</componenttype>
+  <iscustomizable>0</iscustomizable>
+  <name>Azure Data Explorer - Kusto Query MCP Server</name>
+  <parentbotid>
+    <schemaname>cr541_monitoringAgent</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

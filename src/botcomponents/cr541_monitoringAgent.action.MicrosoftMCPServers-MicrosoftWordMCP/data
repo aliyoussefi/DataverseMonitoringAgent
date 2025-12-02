@@ -1,0 +1,12 @@
+kind: TaskDialog
+modelDisplayName: Generate Report
+modelDescription: Use this MCP server to for Microsoft Word operations.
+action:
+  kind: InvokeExternalAgentTaskAction
+  connectionReference: cr541_monitoringAgent.shared_a365mcpservers.ed39095124b34b639f451a39961046ac
+  connectionProperties:
+    mode: Invoker
+
+  operationDetails:
+    kind: ModelContextProtocolMetadata
+    operationId: mcp_WordServer

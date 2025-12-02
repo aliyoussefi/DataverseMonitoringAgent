@@ -1,0 +1,20 @@
+<botcomponent_connectionreferenceset>
+  <botcomponent_connectionreference botcomponentid.schemaname="cr541_monitoringAgent.action.AzureDataExplorer-KustoQueryMCPServer" connectionreferenceid.connectionreferencelogicalname="cr541_monitoringAgent.shared_kusto.6cc9018957fa457c9ce24121f987bf0b">
+    <iscustomizable>1</iscustomizable>
+  </botcomponent_connectionreference>
+  <botcomponent_connectionreference botcomponentid.schemaname="cr541_monitoringAgent.action.AzureMonitorLogs-RunqueryandlistresultsV2Preview" connectionreferenceid.connectionreferencelogicalname="cr541_monitoringAgent.shared_azuremonitorlogs.dce5fdbe18894cf4b334abe210ccab99">
+    <iscustomizable>1</iscustomizable>
+  </botcomponent_connectionreference>
+  <botcomponent_connectionreference botcomponentid.schemaname="cr541_monitoringAgent.action.MicrosoftDataverse-DataverseMCPServer" connectionreferenceid.connectionreferencelogicalname="cr541_monitoringAgent.shared_commondataserviceforapps.1962f97f6c5f497aaa09f9d08a130f6f">
+    <iscustomizable>1</iscustomizable>
+  </botcomponent_connectionreference>
+  <botcomponent_connectionreference botcomponentid.schemaname="cr541_monitoringAgent.action.MicrosoftMCPServers-MicrosoftWordMCP" connectionreferenceid.connectionreferencelogicalname="cr541_monitoringAgent.shared_a365mcpservers.ed39095124b34b639f451a39961046ac">
+    <iscustomizable>1</iscustomizable>
+  </botcomponent_connectionreference>
+  <botcomponent_connectionreference botcomponentid.schemaname="cr541_monitoringAgent.action.PowerPlatformforAdminsV2-EnvironmentManagementMCPServer" connectionreferenceid.connectionreferencelogicalname="cr541_monitoringAgent.shared_powerplatformadminv2.2606ec06d8934c279415dadd928964e2">
+    <iscustomizable>1</iscustomizable>
+  </botcomponent_connectionreference>
+  <botcomponent_connectionreference botcomponentid.schemaname="cr541_monitoringAgent.action.PowerPlatformforAdminsV2-EnvironmentManagementMCPServer_cnP" connectionreferenceid.connectionreferencelogicalname="cr541_monitoringAgent.shared_powerplatformadminv2.2606ec06d8934c279415dadd928964e2">
+    <iscustomizable>1</iscustomizable>
+  </botcomponent_connectionreference>
+</botcomponent_connectionreferenceset>

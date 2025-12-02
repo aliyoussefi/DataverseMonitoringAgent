@@ -1,0 +1,10 @@
+<botcomponent schemaname="cr541_monitoringAgent.action.AzureMonitorLogs-RunqueryandlistresultsV2Preview">
+  <componenttype>9</componenttype>
+  <iscustomizable>0</iscustomizable>
+  <name>Azure Monitor Logs - Run query and list results V2 (Preview)</name>
+  <parentbotid>
+    <schemaname>cr541_monitoringAgent</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

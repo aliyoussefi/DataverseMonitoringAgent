@@ -1,0 +1,10 @@
+<botcomponent schemaname="cr541_monitoringAgent.action.MicrosoftMCPServers-MicrosoftWordMCP">
+  <componenttype>9</componenttype>
+  <iscustomizable>0</iscustomizable>
+  <name>Microsoft MCP Servers - Microsoft Word MCP</name>
+  <parentbotid>
+    <schemaname>cr541_monitoringAgent</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

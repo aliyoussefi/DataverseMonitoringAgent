@@ -1,0 +1,12 @@
+kind: TaskDialog
+modelDisplayName: Kusto Query MCP Server
+modelDescription: This MCP server runs Kusto queries and manages the results.
+action:
+  kind: InvokeExternalAgentTaskAction
+  connectionReference: cr541_monitoringAgent.shared_kusto.6cc9018957fa457c9ce24121f987bf0b
+  connectionProperties:
+    mode: Invoker
+
+  operationDetails:
+    kind: ModelContextProtocolMetadata
+    operationId: mcp_KustoQueryManagement

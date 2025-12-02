@@ -1,0 +1,10 @@
+<botcomponent schemaname="cr541_monitoringAgent.gpt.default">
+  <componenttype>15</componenttype>
+  <iscustomizable>0</iscustomizable>
+  <name>Monitoring Agent</name>
+  <parentbotid>
+    <schemaname>cr541_monitoringAgent</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

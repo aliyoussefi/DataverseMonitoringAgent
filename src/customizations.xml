@@ -1,0 +1,58 @@
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25103.175" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.25103.00175">
+  <Entities></Entities>
+  <Roles></Roles>
+  <Workflows></Workflows>
+  <FieldSecurityProfiles></FieldSecurityProfiles>
+  <Templates />
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings />
+  <optionsets />
+  <CustomControls />
+  <EntityDataProviders />
+  <connectionreferences>
+    <connectionreference connectionreferencelogicalname="cr541_monitoringAgent.shared_a365mcpservers.ed39095124b34b639f451a39961046ac">
+      <connectionreferencedisplayname>cr541_monitoringAgent.shared_a365mcpservers.ed39095124b34b639f451a39961046ac</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_a365mcpservers</connectorid>
+      <iscustomizable>0</iscustomizable>
+      <promptingbehavior>0</promptingbehavior>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="cr541_monitoringAgent.shared_azuremonitorlogs.dce5fdbe18894cf4b334abe210ccab99">
+      <connectionreferencedisplayname>cr541_monitoringAgent.shared_azuremonitorlogs.dce5fdbe18894cf4b334abe210ccab99</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_azuremonitorlogs</connectorid>
+      <iscustomizable>0</iscustomizable>
+      <promptingbehavior>0</promptingbehavior>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="cr541_monitoringAgent.shared_commondataserviceforapps.1962f97f6c5f497aaa09f9d08a130f6f">
+      <connectionreferencedisplayname>cr541_monitoringAgent.shared_commondataserviceforapps.1962f97f6c5f497aaa09f9d08a130f6f</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps</connectorid>
+      <iscustomizable>0</iscustomizable>
+      <promptingbehavior>0</promptingbehavior>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="cr541_monitoringAgent.shared_kusto.6cc9018957fa457c9ce24121f987bf0b">
+      <connectionreferencedisplayname>cr541_monitoringAgent.shared_kusto.6cc9018957fa457c9ce24121f987bf0b</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_kusto</connectorid>
+      <iscustomizable>0</iscustomizable>
+      <promptingbehavior>0</promptingbehavior>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="cr541_monitoringAgent.shared_powerplatformadminv2.2606ec06d8934c279415dadd928964e2">
+      <connectionreferencedisplayname>cr541_monitoringAgent.shared_powerplatformadminv2.2606ec06d8934c279415dadd928964e2</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_powerplatformadminv2</connectorid>
+      <iscustomizable>0</iscustomizable>
+      <promptingbehavior>0</promptingbehavior>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+  </connectionreferences>
+  <Languages>
+    <Language>1033</Language>
+  </Languages>
+</ImportExportXml>

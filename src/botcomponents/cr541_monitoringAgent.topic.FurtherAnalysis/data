@@ -1,0 +1,9 @@
+kind: AdaptiveDialog
+modelDescription: Run this topic once the run query and list results tool is run. Use the output from the tool to populate variables that can be used for further analysis and reporting.
+beginDialog:
+  kind: OnActivity
+  id: main
+  type: Message
+
+inputType: {}
+outputType: {}

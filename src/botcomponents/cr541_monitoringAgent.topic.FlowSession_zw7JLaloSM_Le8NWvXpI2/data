@@ -1,0 +1,4 @@
+kind: KnowledgeSourceConfiguration
+source:
+  kind: DataverseStructuredSearchSource
+  skillConfiguration: FlowSession_Hr_tjmfjSQ_aVxDFXEi1h

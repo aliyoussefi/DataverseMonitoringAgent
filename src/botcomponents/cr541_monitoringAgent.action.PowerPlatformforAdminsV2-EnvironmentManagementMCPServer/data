@@ -1,0 +1,12 @@
+kind: TaskDialog
+modelDisplayName: Environment Management MCP Server
+modelDescription: MCP server for environment lifecycle management in Power Platform.
+action:
+  kind: InvokeExternalAgentTaskAction
+  connectionReference: cr541_monitoringAgent.shared_powerplatformadminv2.2606ec06d8934c279415dadd928964e2
+  connectionProperties:
+    mode: Invoker
+
+  operationDetails:
+    kind: ModelContextProtocolMetadata
+    operationId: mcp_EnvironmentManagement

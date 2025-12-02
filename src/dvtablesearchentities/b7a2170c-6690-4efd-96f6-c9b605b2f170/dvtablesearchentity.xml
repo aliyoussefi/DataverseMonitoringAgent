@@ -1,0 +1,10 @@
+<dvtablesearchentity dvtablesearchentityid="b7a2170c-6690-4efd-96f6-c9b605b2f170">
+  <dvtablesearch>
+    <dvtablesearchid>bc7dc2f5-42ee-4671-a441-d060963b0af0</dvtablesearchid>
+  </dvtablesearch>
+  <entitylogicalname>flowsession</entitylogicalname>
+  <iscustomizable>0</iscustomizable>
+  <name>flowsession</name>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</dvtablesearchentity>
